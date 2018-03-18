@@ -1,0 +1,157 @@
+.jumbotron{
+
+    color:#fff;
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}
+.navbar-default{
+  background: white;
+  border:none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #337ab7;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav > .active> a, .navbar-default .navbar-nav > .active > a:focus {
+    background-color:transparent ;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+  background-color:transparent;
+    color:black;
+}
+
+.navbar-default .navbar-nav > .show> a, .navbar-default .navbar-nav > .show > a:focus {
+    background:transparent;
+    color: grey;
+}
+
+.navbar-default .navbar-nav > .show > a:hover{
+   color: black;
+   background-color: transparent;
+}
+
+.navbar-brand{
+  font-family:inherit;
+  font-weight:500 ;
+  font-size:25px;
+}
+ body,html{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line-1{
+    position: relative;
+    top: 60%;
+    margin: 0 auto;
+    margin-top:50px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-family: "Gill Sans MT";
+}
+
+/* Animation */
+.anim-typewriter{
+    animation: typewriter 1.5s steps(44) 1s 1 normal both,
+    blinkTextCursor 1500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 5.5em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color:darkgrey;}
+    to{border-right-color: transparent;}
+}
+
+
+/*Form*/
+
+.btn-default{
+ color: white;
+ background: #673AB7;
+ border: 1px solid #673AB7;
+ font-size: 15px;
+ font-weight: bold;
+ display:block;
+ text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ border-radius:0px;
+    transition:0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-default:hover, .btn-default:active {
+    color:#673AB7;
+    background:white;
+    border-color: #673AB7;
+}
+
+.panel-default{
+  border-radius: 0px;
+}
+
+.panel-heading{
+  font-family:brandon grotesque;
+  font-weight:normal;
+  font-size:15px;
+    width:100%;
+}
+
+.form-control{
+  border:none;
+  border-radius:0px;
+  border-bottom:2px solid #673AB7;
+}
+/*index1.php navbar*/
+ #adadmin{
+    background:transparent;
+}
+
+#adamin:hover, #adadmin:active {
+ color:black;
+ background:black;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin:0;
+    height: 35px;
+    text-align: center;
+    color: #CCC;
+}
+
+footer p {
+    padding: 10.5px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+/* Tabs*/
+
+.nav-tabs { border-bottom: 2px solid #DDD; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-tabs > li > a { border: none; color: #666; }
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #673AB7 !important; background: transparent; }
+.nav-tabs > li > a::after { content: ""; background: #673AB7; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background:#337ab7 none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+
+.card {background: #FFF none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px; }
+
+
