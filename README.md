@@ -3,4 +3,4 @@ A website which has a QR Code based attendance manager. There is a CManager to v
 There are 2 types of admins: 
 
 <b>1. SuperAdmin 2. Admin</b> <br>
-Admins have all the rights except to add, remove or edit admin details which the SuperAdmin can do.
+<b>Admins</b> have all the rights except to add, remove or edit admin details which the <b>SuperAdmin</b> can do.
